@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import Tk, Button, Label
 root = Tk()
 
 def myClick():
