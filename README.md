@@ -8,3 +8,4 @@ grid.py - grid system for tkinter
 
 Notes:
 Main event loop that goes over each widget -- root.mainLoop()
+.grid() -- places all widgets relative to each other in a grid
