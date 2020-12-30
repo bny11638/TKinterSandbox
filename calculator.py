@@ -19,7 +19,8 @@ def buttonEqual():
     e.delete(0,END)
     sum = 0
     for x in numbers:
-        sum += int(x)
+        if x is not None:
+            sum += int(x)
     e.insert(0,sum)
     numbers.clear()
     print(numbers)
